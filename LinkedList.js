@@ -19,10 +19,9 @@ class LinkedList {
     // functions to be implemented 
     
 	// adds an element at the end of list	
-	//In order to add an element at the end of the list we consider three conditions as follows:
-	//if the index is zero we add an element at the front of the list and make it head
-	//If the index is the last position of the list we append the element at the end of the list
-	//if the index is inbetween 0 or size – 1 we iterate over to the index and add an element at that index
+	//In the order to add an element at the end of the list we consider the following :
+	//If the list is empty then add an element and it will be head
+	//If the list is not empty then iterate to the end of the list and add an element at the end of the list
 	
 	add(element) 
 	{ 
